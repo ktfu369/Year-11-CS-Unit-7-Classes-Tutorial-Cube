@@ -20,6 +20,10 @@ public class Cube {
         return side * side * side;
     }
 
+    public String toString(){
+        return "Cube{side=" + side + "}";
+    }
+
     public Cube(){
         side = 1;
     }
